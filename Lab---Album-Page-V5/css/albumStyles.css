@@ -49,27 +49,12 @@ tbody{
 
 a {
       text-decoration: none;
-  /*font-family: monospace;
-
-  font-weight: none;*/
-}
-
-a:link {
- /*color: Green;*/
-}
-
-a:visited {
-  /*color: Red;*/
 }
 
 a:hover {
   
   text-decoration: underline;
   background-color: rgb(120,120,120);
-  font-family: cursive;*/
+  font-family: cursive;
 }
 
-a:active {
- /* font-weight: bold; */
-   
-}
