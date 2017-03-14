@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link href="./css/restaurantStyles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1 align="center">Double R Dinner</h1>
+        <hr/>
+        <p><a href="./index.html">Home</a> <a href="./menu.html">Menu</a> <a href="./contactus.html">Contact Us</a></p>
+        <hr/>
+        <div>
+        <form action="" method="POST">
+        <table>
+                <tr>
+               <td align= "right"><label for="first">First Name:</label></td>
+               <td><input type="text" name=firstName id="first"/></td>
+           </tr>
+           <tr>
+               <td align= "right"><label for="last">Last Name:</label></td>
+               <td><input type="text" name=lastName id="last" /></td>
+           </tr>
+           <tr>
+               <td align= "right"><label for="emailaddress">Email:</label></td>
+               <td><input type="text" name=email id="emailaddress"/></td>
+           </tr>
+           <tr>
+               <td align= "right"><label for="reason">Reason for Inquiry:<label></td>
+               <td>  
+                   <select name="reasons" id="reason">
+                            <option value="catering">Catering</option>
+                            <option value="private_party">Private Party</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Other</option>
+                    </select>
+                </td>
+           </tr>
+           <tr>
+               <td align= "right">
+                   <label for="info">Additional Information:</label>
+               </td>
+               <td>
+                <textarea name="addInfo" rows="4" id="info"></textarea>
+               </td>
+           </tr>
+           <tr>
+               <td align="right"><label>Have you been to the restaurant?</label></td>
+               <td><input type="radio" name="previous_visit" value="no" checked id="noVisit"/><label for="noVisit">No</label>
+                        <input type="radio" name="previous_visit" value="yes" id="yesVisit"/><label for="yesVisit">Yes</label></td>
+           </tr>
+           <tr>
+                <td align="right">
+                  <label>Best days to contact you:</label>
+               </td>
+               <td>
+                   
+                    <input type="checkbox" name="contactyou" id="mon"/><label for="mon">M</label>
+                    <input type="checkbox" name="contactyou" id="tue"/><label for="tue">T</label>
+                    <input type="checkbox" name="contactyou" id="wed"/><label for="wed">W</label>
+                    <input type="checkbox" name="contactyou" id="thur"/><label for="thur">Th</label>
+                    <input type="checkbox" name="contactyou" id="fri"/><label for="fri">F</label>
+                    
+               </td>
+           </tr>
+           <tr>
+               <td/>
+                <td align="center">
+                     <input type="submit" name="send" value="Send Request"/>
+                </td>
+           </tr>
+        </table>
+        </form>
+        </div>
+        <hr/>
+      <div align="center">
+            137 W North Bend Way, Twin Peaks, WA, 98045</br></br>
+            (555) 555 - 5511
+        </div>
+        <hr/>
+    </body>
+</html>
