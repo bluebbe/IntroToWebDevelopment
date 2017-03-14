@@ -1,0 +1,42 @@
+Giving the following
+
+The sample element you are working with is:
+
+#div1 {
+
+height: 150px; /* height of content */
+
+width: 400px; /*  width of content */
+
+margin: 20px;
+
+border: 1px solid red;
+
+padding: 10px;
+
+}
+
+
+Calculate:
+
+*Total height
+- Total height = margin-top + border-top + padding-top + (height of the content)+ padding-bottom + border-bottom + margin-bottom
+- Total height =     20px   +     1px    +    10px     +          150px         +        10px    +       1px     +       20px
+- Total height =  212px
+
+*Total width
+- Total width = margin-left + border-left + padding-left + (width of the content)+ padding-right + border-right + margin-right
+- Total width =      20px   +     1px    +    10px     +          400px         +        10px    +       1px     +       20px
+- Total width =  462px
+
+
+*Browser calculated height
+- Browser calculated height =  border-top + padding-top + (height of the content)+ padding-bottom + border-bottom
+- Browser calculated height =      1px    +    10px     +          150px         +        10px    +       1px   
+- Browser calculated height =   172px
+
+
+* Browser calculated width
+-Browser calculated width = border-left + padding-left + (width of the content)+ padding-right + border-right
+-Browser calculated width =      1px    +    10px      +          400px        +        10px   +       1px   
+-Browser calculated width =  422px
