@@ -2,33 +2,56 @@
 <html>
     <head>
         <title>Home Page</title>
+           <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+    
+    
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+    <!-- Optional theme -->
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+    </script>
         <link href="./css/restaurantStyles.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <h1 align="center">Double R Dinner</h1>
+        <div>
+        <h1 style="text-align: center">Double R Dinner</h1>
         <hr/>
-        <p><a href="./index.html">Home</a> <a href="./menu.html">Menu</a> <a href="./contactus.html">Contact Us</a></p>
+        <ul class="nav nav-pills">
+            <li class="active"><a href="./index.html"><span class="glyphicon glyphicon-home"></a></li>
+            <li><a href="./menu.html">Menu</a></li> 
+            <li><a href="./contactus.html">Contact Us</a></li>
+        </ul>
         <hr/>
-        <div id="hpcontent" align="center">
+        <div id="hpcontent" style="text-align: center">
             <img src="./images/restuarant.jpg" width="400" height="150"/>
          
-                <p align="justify">
+                <p style="text-align: justify">
                 <h2>Restaurant Description</h2>
-                <blockquote>
+                
                 The Double R Diner (for Railroad Diner) is the local diner            <br/> 
                 in the town of Twin Peaks, Washington. It is owned and operated by    <br/>
                 Norma Jennings. It is a town institution and oftentimes a hang-out,   <br/> 
                 specializing in homemade pie and coffee. It is open all days of the   <br/>
                 week and holidays. It is also a food provider for the town Meals on   <br/>
                 Wheels program and is a sponsor of the Miss Twin Peaks Contest.
-                </blockquote>
+                
                 </p>
         </div>
         <hr/>
-        <div align="center">
+        <div style="text-align: center">
             137 W North Bend Way, Twin Peaks, WA, 98045</br></br>
             (555) 555 - 5511
         </div>
         <hr/>
+        </div>
     </body>
 </html>

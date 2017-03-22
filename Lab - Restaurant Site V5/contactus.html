@@ -2,30 +2,52 @@
 <html>
     <head>
         <title>Contact Us</title>
+        <title>Home Page</title>
+           <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+    
+    
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+    <!-- Optional theme -->
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+    </script>
         <link href="./css/restaurantStyles.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <h1 align="center">Double R Dinner</h1>
+        <h1 style="text-align:center">Double R Dinner</h1>
         <hr/>
-        <p><a href="./index.html">Home</a> <a href="./menu.html">Menu</a> <a href="./contactus.html">Contact Us</a></p>
+        <ul class="nav nav-pills">
+            <li ><a href="./index.html"><span class="glyphicon glyphicon-home"></a></li>
+            <li><a href="./menu.html">Menu</a></li> 
+            <li class="active"><a href="./contactus.html">Contact Us</a></li>
+        </ul>
         <hr/>
         <div>
         <form action="" method="POST">
         <table>
                 <tr>
-               <td align= "right"><label for="first">First Name:</label></td>
+               <td style="text-align:right"><label for="first">First Name:</label></td>
                <td><input type="text" name=firstName id="first"/></td>
            </tr>
            <tr>
-               <td align= "right"><label for="last">Last Name:</label></td>
+               <td style="text-align:right"><label for="last">Last Name:</label></td>
                <td><input type="text" name=lastName id="last" /></td>
            </tr>
            <tr>
-               <td align= "right"><label for="emailaddress">Email:</label></td>
+               <td style="text-align:right"><label for="emailaddress">Email:</label></td>
                <td><input type="text" name=email id="emailaddress"/></td>
            </tr>
            <tr>
-               <td align= "right"><label for="reason">Reason for Inquiry:<label></td>
+               <td style="text-align:right"><label for="reason">Reason for Inquiry:<label></td>
                <td>  
                    <select name="reasons" id="reason">
                             <option value="catering">Catering</option>
@@ -36,7 +58,7 @@
                 </td>
            </tr>
            <tr>
-               <td align= "right">
+               <td style="text-align:right">
                    <label for="info">Additional Information:</label>
                </td>
                <td>
@@ -44,12 +66,12 @@
                </td>
            </tr>
            <tr>
-               <td align="right"><label>Have you been to the restaurant?</label></td>
+               <td style="text-align:right"><label>Have you been to the restaurant?</label></td>
                <td><input type="radio" name="previous_visit" value="no" checked id="noVisit"/><label for="noVisit">No</label>
                         <input type="radio" name="previous_visit" value="yes" id="yesVisit"/><label for="yesVisit">Yes</label></td>
            </tr>
            <tr>
-                <td align="right">
+                <td style="text-align:right">
                   <label>Best days to contact you:</label>
                </td>
                <td>
@@ -64,7 +86,7 @@
            </tr>
            <tr>
                <td/>
-                <td align="center">
+                <td style="text-align:center">
                      <input type="submit" name="send" value="Send Request"/>
                 </td>
            </tr>
@@ -72,7 +94,7 @@
         </form>
         </div>
         <hr/>
-      <div align="center">
+      <div style="text-align:center">
             137 W North Bend Way, Twin Peaks, WA, 98045</br></br>
             (555) 555 - 5511
         </div>
