@@ -10,7 +10,7 @@ th {
     background: rgb(1,247,147);
 }
 
-#hpcontent{
+.row{
     background: rgb(10,100,200);
 }
 
@@ -57,3 +57,4 @@ a:active {
 td.colprice{
     text-align: right;
 }
+

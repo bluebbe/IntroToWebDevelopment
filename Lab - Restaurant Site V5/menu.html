@@ -22,7 +22,13 @@
         <link href="./css/restaurantStyles.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+        <div class="container-fluid">
         <h1 style="text-align:center">Double R Dinner</h1>
+         <div class="jumbotron">
+            <h2>Opening New Location</h2>
+            Double R Dinner is openning in new location within the downtown area of Seatle, Washington.
+
+        </div>
         <hr/>
           <ul class="nav nav-pills">
             <li ><a href="./index.html"><span class="glyphicon glyphicon-home"></a></li>
@@ -30,15 +36,15 @@
             <li><a href="./contactus.html">Contact Us</a></li>
         </ul>
         <hr/>
-        <div id="menu" style="text-align:center" >
-        <table class="table-responsive">
-            <tr>
-                <th>Burger and Fries</th>
-                <th> Hot Dog and Chips</th>
-                <th>Italian Sausage and Peppers</th>
-            </tr>
-            <tr>
-                <td>
+        <div id="menu" class="container-fluild text-center">
+        
+            <div class="row">
+                <div class="col-md-2 col-md-offset-3 col-sm-3 col-sm-offset-1 col-xs-4"><strong>Burger and Fries</strong></div>
+                <div class="col-md-2 col-sm-3 col-xs-4"><strong>Dog and Chips</strong></div>
+                <div class="col-md-2 col-sm-3 col-xs-4"><strong>Italian Sausage and Peppers</strong></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-3 col-sm-3 col-sm-offset-1 col-xs-4">
                         <div style="text-align:center">
                         An America Classic!<br/>
                         Your choice - with or without cheese<br/>
@@ -47,33 +53,35 @@
                         french fries<br/>
                         $7.95
                         </div>
-                </td>
-                <td>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-4">
                          <div style="text-align:center">
+                        </br>
                         An America Classic!<br/>
                         Your choice - white or wheat bun<br/>
                         Relish, mustard, and ketchup<br/>
                         Served with our house-made chips<br/>
                         $7.95
                         </div>
-                </td>
-                <td>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-4">
                     <div style="text-align:center">
+                        </br>
                         An All-Time Favorite!! <br/>
                         Your choice - mild or spicy <br/>
                         Cole Slaw <br/>
                         Served with garlic mashers <br/>
                         $10.95
                         </div>
-                </td>    
-            </tr>    
-            <tr>
-                <th>Tenderloin Sandwich and Chips</th>
-                <th>House Salad</th>
-                <th>Brisket Sandwich and Fries</th>
-            </tr>
-            <tr>
-                <td>
+                </div>    
+            </div>    
+            <div class="row">
+                <div class="col-md-2 col-md-offset-3 col-sm-3 col-sm-offset-1 col-xs-4"><strong>Tenderloin Sandwich and Chips</strong></div>
+                <div class="col-md-2 col-sm-3 col-xs-4"><strong>House Salad</strong></div>
+                <div class="col-md-2 col-sm-3 col-xs-4"><strong>Brisket Sandwich and Fries</strong></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-md-offset-3 col-sm-3 col-sm-offset-1 col-xs-4">
                       <div style="text-align:center">
                         <br/>
                         Really Hits the Spot!<br/>
@@ -82,8 +90,8 @@
                         Served with our house-made chips<br/>
                         $8.95
                      </div>
-               </td>
-                <td>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-4">
                       <div style="text-align:center">
                         On the Lighter Side<br/>
                         Your choice - with or without cheese<br/>
@@ -92,8 +100,8 @@
                         Served with a dinner roll<br/>
                         $6.95
                     </div>
-                </td>
-                <td>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-4">
                      <div style="text-align:center">
                         A Taste of Texas!<br/>
                         Smoked Brisket on thick-cut Texas<br/>
@@ -102,71 +110,47 @@
                         french fries<br/>
                         $7.95
                      </div>
-                </td>    
-            </tr>
-        </table>
-        <table id="beverage" style="width: 255px" class="table-responsive" >
-            <thead>
-                <tr>
-                    <td colspan="2">
-                        <div class="colbeverage">
-                           Beverages
+                </div>   
+            </div>
+             
+
+
+            <div class="row">  
+                        <div class="col-md-2 col-md-offset-5 col-sm-2 col-sm-offset-4 col-xs-4 col-xs-offset-4 text-left colbeverage">
+                           <u>Beverages</u>
                         </div>
-                    
-                    </td>
+                        
                 
-                </tr>
-            <thead>
-            <tbody>    
-                <tr>
-                    <td class="colbeverage">
-                    Root Beer
-                    
-                    </td>
-                    <td class="colprice">
-                       $3.00
-                    </td>
-                </tr>
-                <tr>
-                    <td class="colbeverage">
-                    Bottled Water
-                    
-                    </td>
-                    <td class="colprice">
-                        $3.00
-                   
-                    </td>
-                </tr>
-                <tr>
-                    <td class="colbeverage">
-                    Lemonade
-                    
-                    </td>
-                    <td class="colprice">
-                    
-                        $1.00
-                    
-                    </td>
-                </tr>
-                <tr>
-                   <td class="colbeverage">
-                    
+            </div>
+            <div class="row">
+
+                    <div class="col-md-1 col-md-offset-5 col-sm-2 col-sm-offset-4 col-xs-2 col-xs-offset-4 text-left colbeverage">
+                    </br>
+                    Root Beer</br></br>  
+                    Bottled Water</br></br> 
+                    Lemonade</br></br> 
                     Iced Tea
-                    </td>
-                     <td class="colprice">
-                        $1.25
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+                    </div>
+                    <div class="col-md-1 col-sm-1 col-xs-2 text-right colprice">
+                         </br>
+                       $3.00</br></br> 
+                       $3.00</br></br> 
+                       $1.00</br></br> 
+                       $1.25
+                    </div>
+                </div>
+            </div>
+                    
+        -->
+       
+
         </div>
-
-
         <hr/>
        <div style="text-align:center">
             137 W North Bend Way, Twin Peaks, WA, 98045</br></br>
             (555) 555 - 5511
         </div>
         <hr/>
+        <div>
     </body>
 </html>
